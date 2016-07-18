@@ -1,0 +1,64 @@
+[7/15/2016 4:00:25 PM] Roman Shmygol: привет
+[7/15/2016 4:00:34 PM] Sergii Sergeiev: привет
+[7/15/2016 4:00:34 PM] Roman Shmygol: письмо Security Fixes for PCS and SOLR servers
+[7/15/2016 4:00:38 PM] Sergii Sergeiev: видел
+[7/15/2016 4:00:44 PM] Roman Shmygol: запушите у себя в настройки томкета?
+[7/15/2016 4:00:46 PM] Sergii Sergeiev: видел на фабрикаторе
+[7/15/2016 4:00:50 PM] Sergii Sergeiev: да
+[7/15/2016 4:00:53 PM] Roman Shmygol: супер
+[7/15/2016 4:00:54 PM] Sergii Sergeiev: запушу
+[7/15/2016 4:01:01 PM] Roman Shmygol: тогда Шону отпишусь что найс все
+[7/15/2016 4:01:20 PM] Roman Shmygol: и заедит при след деплоях
+[7/15/2016 4:01:41 PM] Sergii Sergeiev: просто вопрос такого плана, хотя в понедельник поговрим, ты будешь в офисе?
+[7/15/2016 4:01:53 PM] Sergii Sergeiev: мы ОДС не деплоим
+[7/15/2016 4:02:01 PM] Roman Shmygol: ))
+[7/15/2016 4:02:11 PM] Sergii Sergeiev: по нему разработка остановилась
+[7/15/2016 4:02:15 PM] Roman Shmygol: да, планирую быть
+[7/15/2016 4:02:40 PM] Sergii Sergeiev: ну тогда обсудим в первой половине дня
+[7/15/2016 4:03:00 PM] Roman Shmygol: да, приходи на стендап)
+[7/15/2016 4:03:06 PM] Sergii Sergeiev: ок
+[7/15/2016 4:03:17 PM] Sergii Sergeiev: он у тебя на 11 или 11-30?
+[7/15/2016 4:04:04 PM] Roman Shmygol: ну йопт, у тебя нет этого митинга в календаре?)
+[7/15/2016 4:04:38 PM] Sergii Sergeiev: хм есть, а я его ж удалял
+[7/15/2016 4:04:41 PM] Sergii Sergeiev: ок буду
+[12:11:18 PM] Sergii Sergeiev: Ром письмо по апдейту препрода RE: Action Required: All-Day Pre-Prod Patching - July 21, 2016
+[12:11:45 PM] Sergii Sergeiev: там дофига получателей, отписывать на всех или только на Фила?
+[12:12:18 PM] Roman Shmygol: а что ты хочешь ему отправить? список энвов?
+[12:12:23 PM] Roman Shmygol: глянь файло
+[12:12:49 PM] Sergii Sergeiev: посмотри там есть вложение присланое дейвом
+[12:13:35 PM] Sergii Sergeiev: и там указано в  письме, если нет хоста в списке то укажите его, а там нет ни одного препродовского нашего хоста
+[12:14:48 PM] Roman Shmygol: Phil will need some form of a MOP and a list of nodes which we’ll need to take down and bring back up so can you send that to him.
+[12:14:56 PM] Roman Shmygol: вот что мне Дейв потом прислал
+[12:15:15 PM] Roman Shmygol: судя по всему - он от балды что то написал
+[12:20:21 PM] Roman Shmygol: я скину им список
+[12:55:44 PM] Roman Shmygol: Серега, у меня напоминалка вылезла про 100 грн)
+[1:43:29 PM] Sergii Sergeiev: буду у тебя через 5 минут
+[2:42:08 PM] Roman Shmygol: Сережа, а ты овертаймы в выходные дни по реквестам сабмитил с 2 или 1,5 ?
+[2:54:41 PM] Sergii Sergeiev: мне на выходных ни разу не звонили,  я реквестил 4 часа на каждый выходной
+[2:54:51 PM] Roman Shmygol: окей
+[3:13:03 PM] Roman Shmygol: слу
+[3:13:16 PM] Roman Shmygol: я джобы причесываю на нашем дженкинсе
+[3:13:27 PM] Roman Shmygol: http://jenkins.marks.kyiv.epam.com/job/Marks/job/Build/job/Develop/
+[3:13:36 PM] Roman Shmygol: это за плагин?
+[3:14:41 PM] Sergii Sergeiev: сек
+[3:15:28 PM] Sergii Sergeiev: этот я так понял, ты про него https://wiki.jenkins-ci.org/display/JENKINS/CloudBees+Folders+Plugin
+[3:15:38 PM] Sergii Sergeiev: а на нем уже вьюхи
+[3:18:46 PM] Roman Shmygol: хм
+[3:19:05 PM] Roman Shmygol: при создании новой вьюхи, какую выбирать?
+[3:19:30 PM] Sergii Sergeiev: ну ту что тебе надо
+[3:19:52 PM] Sergii Sergeiev: там их вродь 3 на выбор
+[3:20:09 PM] Sergii Sergeiev: или 4-е, можно просмотрет ьвсе
+[3:20:18 PM] Roman Shmygol: я не совсем понял, что выбрать, дабы было как у вас
+[3:20:27 PM] Roman Shmygol: бо при правке вьюхи не светится ее тип
+[3:20:31 PM] Sergii Sergeiev: просто тот плагин
+[3:21:50 PM] Roman Shmygol: да, у нас тоже этот плагин установлен
+[3:21:51 PM] Roman Shmygol: http://jenkins.marks.kyiv.epam.com/newView
+[3:21:54 PM] Roman Shmygol: я про это
+[3:22:41 PM] Sergii Sergeiev: нифигасе у нас плагинов наставлено, по умолчанию их 3 или 4 ))
+[3:22:52 PM] Sergii Sergeiev: List View
+[3:25:20 PM] Roman Shmygol: List View покажет просто джобы
+[3:25:32 PM] Roman Shmygol: я про то, куда кликать, дабы заработала структура по папкам
+[3:26:04 PM] Roman Shmygol: раньше такое делали через Nested View
+[3:26:45 PM] Sergii Sergeiev: теперь тебя понял
+[3:27:30 PM] Sergii Sergeiev: если честно хз, но через нестед делали, может у Саши К уточни, он его тогда раскидивал по папкам
+[3:28:18 PM] Roman Shmygol: окей
