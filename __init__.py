@@ -15,6 +15,5 @@ import sys
 print(sys.copyright, '\n\n', '\n sys.platform', sys.platform, '\n sys.path', sys.path, '\n sys.modules', sys.modules)
 '''
 
-
-stringus = "This {} text locate {} in {} right place".format('<10', '>10', '^10')
+stringus = "This {first:>10s} text locate {first} in {third: <20s} right place".format(first='10', second='20', third='30')
 print (stringus)
