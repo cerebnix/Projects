@@ -35,10 +35,62 @@ print (s1.__len__())
 
 for i in s1:
     print (i)
-'''
+
 
 s1 = "Never give UP!!!"
 
 b = '!!!!' in s1
 
 print(s1.replace("!!!", "QQQQQ"))
+
+a = None
+
+print (a)
+if a == None:
+    print("True")
+else:
+    print("False")
+
+
+l = ['asdf', ' ', 'asdf', 'asdf']
+l1 = iter(l)
+
+for i in range(5):
+    print(l1.__next__())
+
+
+
+z = [ str(i)  for i in range(2, 10)]
+print (z)
+
+print([int(i)+20 for i in z ])
+
+if all(z):
+    print("T")
+
+
+
+days = ["Sunday", "Monday", "Tuesday", "Wednesday" ]
+for i in days:
+    print (i)
+
+
+
+def my_min(first, *args, lo=float('-inf'), hi=float('inf')):
+    res=hi
+    for arg in (first, ) + args:
+        if arg < res and lo < arg < hi:
+            res = arg
+        return res
+#body program
+
+my_min(-4, -20, 20, 8, lo=-2, hi=40)
+
+seen = set(seen or [])
+'''
+
+def tttr ():
+    '''test help'''
+    return 50
+
+tttr()
